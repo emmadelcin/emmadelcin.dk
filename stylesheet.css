@@ -1,0 +1,41 @@
+html{
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+    font-family: Marydale; 
+    font-size: 40px;
+    font-weight: 100;
+    color: #6A705C;
+    margin: 5px;
+}
+
+.menu a{
+    background-color: transparent;
+    text-align: center;
+    font-family: Avenir Next Condensed;
+    color: #4b4b4b;
+    padding: 4px 20px;
+    text-decoration: none;
+}
+
+.menu a:hover
+{color: #a0a38e;}
+
+.menu a:active{
+    color: #a0a38e;
+    font-weight: 400;
+}
+
+body#forside .forside
+{color: #a0a38e}
+
+body#portfolio .portfolio
+{color: #a0a38e}    
+
+body#om-mig .om-mig
+{color: #a0a38e}  
+
+body#kontakt .kontakt
+{color: #a0a38e}  
