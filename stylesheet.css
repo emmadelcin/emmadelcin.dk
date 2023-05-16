@@ -137,8 +137,9 @@ body#kontakt .kontakt
 .overskrift{
     text-align: left;
     font-family: Avenir Next Condensed;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
+    color: #4b4b4b;
 }
 
 .portfolio-tekst{
@@ -185,3 +186,41 @@ body#kontakt .kontakt
 }
 
 
+/* section1 - PORTFOLIO ved større end en mobil */
+@media screen and (min-width: 600px){
+    .række1 {
+        display: flex;
+        margin: 0px 10%;
+    }
+
+    .række2 {
+        display: flex;
+        margin: 0px 10%;
+    }
+      
+    .kolonner {
+        flex: 33.33%;
+    }
+    .overskrift{
+        text-align: center;
+        font-size: 30px;
+}}
+
+@media screen and (min-width: 1100px){
+    .række1 {
+        display: flex;
+    }
+
+    .række2 {
+        display: flex;
+    }
+      
+    .kolonner {
+        flex: 33.33%;
+        padding: 5px;
+    }
+
+    .overskrift{
+        text-align: center;
+        font-size: 35px;
+}}
