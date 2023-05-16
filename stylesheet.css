@@ -102,9 +102,10 @@ body#kontakt .kontakt-nav
         {font-size: 20px;}}
 
 /*forside billede og tilhørende tekst ved web*/
-@media screen and (min-width: 1100px){
+@media screen and (min-width: 1000px){
     .intro{
         left: 20%;
+        
 
     .titel
         {font-size: 35px;}
@@ -211,7 +212,7 @@ body#kontakt .kontakt-nav
 }}
 
 /* section1 - PORTFOLIO ved web */
-@media screen and (min-width: 1100px){
+@media screen and (min-width: 1000px){
     .overskrift{
         font-size: 35px;
 }}
@@ -236,7 +237,7 @@ body#kontakt .kontakt-nav
     color: #4b4b4b;
 }
 
-.brødtekst-mobil{
+.brødtekst{
     font-family: Avenir Next Condensed;
     font-size: 16px;
     text-align: left;
@@ -244,7 +245,7 @@ body#kontakt .kontakt-nav
     padding: 0px 20px 20px;
 }
 
-/* section2 - OM MIG ved større end en mobil*/
+/* section2 - OM MIG ved større end en mobil + web*/
 @media screen and (min-width: 600px){
     .række-om-mig {
         display: flex;
@@ -252,4 +253,89 @@ body#kontakt .kontakt-nav
       
     .kolonne-om-mig {
         flex: 33.33%;
+    }}
+
+
+/* section3 - KONTAKT styling*/
+.underoverskrift{
+    font-family: Avenir Next Condensed;
+    font-size: 12px;
+    text-align: left;
+    color: #4b4b4b;
+    padding-left: 20px;
+}
+
+#overskrift{
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.kontakt img{
+    width: 30px;
+    height: 30px;
+    padding: 10px 20px;
+}
+
+.kontakt{
+    display: flex;
+    font-family: Avenir Next Condensed;
+    font-size: 16px;
+    color: #4b4b4b;
+}
+
+.forside-kontakt-grøn-box {
+    width: 30%;
+    height: 300px;
+    margin: 0px 0px 150px 0px;
+    opacity: 50%;
+    position: relative;
+    left: 5%;
+}
+
+.kontaktinfo{
+    float: right;
+    margin-right: 5%;
+}
+
+.forside-kontakt-billede{
+    width: 200px;
+    padding: 40px;
+    position: absolute;
+    right: 10%;
+}
+
+/* section3 - KONTAKT ved større end en mobil*/
+@media screen and (min-width: 600px){
+    .underoverskrift{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    #overskrift{
+        text-align: center;
+    }
+
+    .kontaktinfo{
+        margin-right: 15%;
+    } 
+    .forside-kontakt-grøn-box {
+        left: 10%;
+    }
+    .forside-kontakt-billede{
+        right: 30%;
+    }}
+
+/* section3 - KONTAKT ved web*/
+@media screen and (min-width: 1000px){
+    .kontaktinfo{
+        margin-right: 30%;
+    } 
+  
+    .forside-kontakt-grøn-box {
+        max-width: 300px;
+    }
+    
+    .forside-kontakt-billede{
+        right: 40%;
     }}
