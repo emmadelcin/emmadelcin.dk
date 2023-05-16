@@ -2,7 +2,7 @@ body{
     text-align: center;
 }
 
-
+/*header styling*/
 .logo-navn{
     text-align: center;
     font-family: Marydale; 
@@ -12,6 +12,7 @@ body{
     margin: 5px;
 }
 
+/*nav styling*/
 .menu a{
     background-color: transparent;
     text-align: center;
@@ -21,6 +22,7 @@ body{
     text-decoration: none;
 }
 
+/*hover, active og nav-placering af knapper i nav*/
 .menu a:hover
     {color: #a0a38e;}
 
@@ -39,12 +41,14 @@ body#om-mig .om-mig
 body#kontakt .kontakt
     {color: #a0a38e}  
 
+/*ved mobil er nav placeret horisontalt*/
 @media screen and (max-width: 600px){
     .menu{
         display: grid;
         width: 100%;
     }}
 
+/*forside billede og tilhørende tekst ved mobil*/
 .intro-box
     {position: relative;}
 
@@ -74,6 +78,7 @@ body#kontakt .kontakt
     font-size: 15px;
 }
 
+/*forside billede og tilhørende tekst ved større skærm end mobil*/
 @media screen and (min-width: 600px){
     .logo
         {font-size: 40px;}
@@ -94,9 +99,10 @@ body#kontakt .kontakt
     .underskrift
         {font-size: 20px;}}
 
-@media screen and (min-width: 1000px){
-    .intro
-        {left: 15%;}
+/*forside billede og tilhørende tekst ved web*/
+@media screen and (min-width: 1100px){
+    .intro{
+        left: 20%;
 
     .titel
         {font-size: 35px;}
@@ -106,17 +112,17 @@ body#kontakt .kontakt
     
     .underskrift
         {font-size: 25px;}}
+    }
 
-
-.mail{
-    width: 25px;
-    padding: 0px 10px;
+/*footer styling*/
+.footer{
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    border: 1px #4b4b4b; 
+    border-style: solid none none;
 }
-
-.brødtekst{
-    font-family: Avenir Next Condensed;
-    font-size: 18px;
- }
 
 .logo{
     width: 80px;
@@ -126,4 +132,5 @@ body#kontakt .kontakt
     width: 30px;
     padding: 10px 0px 20px;
 }
+
 
