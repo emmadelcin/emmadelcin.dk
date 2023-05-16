@@ -133,4 +133,55 @@ body#kontakt .kontakt
     padding: 10px 0px 20px;
 }
 
+/*section1 - PORTFOLIO styling*/
+.overskrift{
+    text-align: left;
+    font-family: Avenir Next Condensed;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.portfolio-tekst{
+    width: 100px;
+    padding: 15px 5px;
+    font-family: Avenir Next Condensed;
+    text-align: center;
+    font-size: 18px;
+}
+
+.portfolio-forside{
+    width: 90%;
+}
+
+/*section1 - PORTFOLIO styling fortsat individuel farve på boxene*/
+#portræt-box{
+    background-color: #7e8265;
+    color: #e5e5e5;
+}
+
+#produktbilleder-box{
+    background-color: #6a705c;
+    color: #e5e5e5;
+}
+
+#plakater-box{
+    background-color: #a0a38e;
+    color: #4b4b4b;
+}
+
+#logo-box{
+    background-color: #6a705c;
+    color: #e5e5e5;
+}
+
+#animation-box{
+    background-color: #a0a38e;
+    color: #4b4b4b;
+}
+
+#video-box{
+    background-color: #7e8265;
+    color: #e5e5e5;
+}
+
 
