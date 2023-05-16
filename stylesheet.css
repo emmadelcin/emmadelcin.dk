@@ -221,8 +221,8 @@ body#kontakt .kontakt-nav
 /* section2 - OM MIG styling*/
 .grå-baggrund{
     background-color: #e5e5e5;
-    padding: 5px;
-    margin: 50px 0px
+    padding: 5px 0px 50px;
+    margin: 50px 0px;
 }
 .om-mig img{
     width: 60px;
@@ -244,6 +244,22 @@ body#kontakt .kontakt-nav
     color: #4b4b4b;
     padding: 0px 20px 20px;
 }
+
+.knap-om-mig{
+    background-color:#a0a38e;
+    width: 100px;
+    text-decoration: none;
+    font-family: Avenir Next Condensed;
+    color: #4b4b4b;
+    padding: 4px 20px;
+}
+
+.knap-om-mig:hover
+    {color:#e5e5e5;}
+
+.knap-om-mig:active
+    {background-color:#7e8265;}
+
 
 /* section2 - OM MIG ved større end en mobil + web*/
 @media screen and (min-width: 600px){
@@ -300,10 +316,27 @@ body#kontakt .kontakt-nav
 
 .forside-kontakt-billede{
     width: 200px;
-    padding: 40px;
     position: absolute;
+    margin: 50px;
     right: 10%;
 }
+
+.knap-kontakt{
+    background-color:#a0a38e;
+    width: 120px;
+    text-decoration: none;
+    font-family: Avenir Next Condensed;
+    color: #4b4b4b;
+    padding: 4px 20px;
+    margin-top: 10px;
+    float: right;
+}
+
+.knap-kontakt:hover
+    {color:#e5e5e5;}
+
+.knap-kontakt:active
+    {background-color:#7e8265;}
 
 /* section3 - KONTAKT ved større end en mobil*/
 @media screen and (min-width: 600px){
