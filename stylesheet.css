@@ -1,11 +1,12 @@
-html{
+body{
     text-align: center;
 }
 
-.logo{
+
+.logo-navn{
     text-align: center;
     font-family: Marydale; 
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 100;
     color: #6A705C;
     margin: 5px;
@@ -21,21 +22,108 @@ html{
 }
 
 .menu a:hover
-{color: #a0a38e;}
+    {color: #a0a38e;}
 
-.menu a:active{
-    color: #a0a38e;
-    font-weight: 400;
-}
+.menu a:active
+    {color: #a0a38e;}
 
 body#forside .forside
-{color: #a0a38e}
+    {color: #a0a38e}
 
 body#portfolio .portfolio
-{color: #a0a38e}    
+    {color: #a0a38e}    
 
 body#om-mig .om-mig
-{color: #a0a38e}  
+    {color: #a0a38e}  
 
 body#kontakt .kontakt
-{color: #a0a38e}  
+    {color: #a0a38e}  
+
+@media screen and (max-width: 600px){
+    .menu{
+        display: grid;
+        width: 100%;
+    }}
+
+.intro-box
+    {position: relative;}
+
+#baloo{
+    width: 100%;
+    max-height: 600px;
+    max-width: 900px;
+    padding: 20px 0px;
+}
+
+.titel{
+    text-align: left;
+    font-family: Avenir Next Condensed;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 5px;
+}
+
+.titel2{
+    text-align: left;
+    font-family: Avenir Next Condensed;
+    font-size: 15px;
+}
+
+.underskrift{
+    font-family: Marydale; 
+    font-size: 15px;
+}
+
+@media screen and (min-width: 600px){
+    .logo
+        {font-size: 40px;}
+
+    .intro{
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        color: #4b4b4b;
+    }
+
+    .titel
+        {font-size: 30px;}
+    
+    .titel2
+        {font-size: 20px;}
+    
+    .underskrift
+        {font-size: 20px;}}
+
+@media screen and (min-width: 1000px){
+    .intro
+        {left: 15%;}
+
+    .titel
+        {font-size: 35px;}
+    
+    .titel2
+        {font-size: 25px;}
+    
+    .underskrift
+        {font-size: 25px;}}
+
+
+.mail{
+    width: 25px;
+    padding: 0px 10px;
+}
+
+.brødtekst{
+    font-family: Avenir Next Condensed;
+    font-size: 18px;
+ }
+
+.logo{
+    width: 80px;
+}
+
+.sociale-medier img{
+    width: 30px;
+    padding: 10px 0px 20px;
+}
+
