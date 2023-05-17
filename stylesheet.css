@@ -1,5 +1,16 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
 body{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    flex: 1;
 }
 
 /*header styling*/
@@ -148,7 +159,7 @@ body#kontakt .kontakt-nav
 }
 
 .portfolio-tekst{
-    width: 100px;
+    width: 120px;
     padding: 15px 5px;
     font-family: Avenir Next Condensed;
     text-align: center;
@@ -158,8 +169,7 @@ body#kontakt .kontakt-nav
 .portfolio-forside{
     width: 90%;
     max-width: 300px;
-    margin-bottom: 30px;
-    margin-top: 30px
+    position: relative;
 }
 
 /*section1 - PORTFOLIO styling fortsat individuel farve på boxene*/
@@ -194,14 +204,11 @@ body#kontakt .kontakt-nav
 }
 
 /*section1 - PORTFOLIO styling fortsat individuel placering på boxene*/
-.kolonner{
+.portfolio-tekst{
     position: relative;
-}
-
-#portræt-box{
-    position: absolute;
-    top: 80%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
 }
 
 /* section1 - PORTFOLIO ved større end en mobil */
@@ -219,25 +226,33 @@ body#kontakt .kontakt-nav
     .kolonner {
         flex: 33.33%;
     }
+
     .overskrift{
         text-align: center;
         font-size: 30px;
     }
 
-#portræt-box{
-    top: 50%;
-    left: 20%;
-}
-}
+    .portfolio-tekst{
+        transform: translate(-50%, -400%);
 
+}}
+
+
+/* section1 - PORTFOLIO ved lidt mindre end web */
+@media screen and (min-width: 850px){
+.portfolio-tekst{
+    transform: translate(-50%, -450%);}
+}
 
 
 /* section1 - PORTFOLIO ved web */
 @media screen and (min-width: 1000px){
     .overskrift{
         font-size: 35px;
-}}
+}
 
+.portfolio-tekst{
+    transform: translate(-50%, -550%);}}
 
 /* section2 - OM MIG styling*/
 .grå-baggrund{
@@ -538,5 +553,7 @@ body#kontakt .kontakt-nav
     .portfolio-produktbilleder{
         left: 20%;
         }
+
+
 
 
