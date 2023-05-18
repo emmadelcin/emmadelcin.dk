@@ -73,7 +73,7 @@ body#kontakt .kontakt-nav
 .titel{
     text-align: left;
     font-family: Avenir Next Condensed;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 300;
     line-height: 5px;
     padding: 0px 20px;
@@ -83,13 +83,15 @@ body#kontakt .kontakt-nav
 .titel2{
     text-align: left;
     font-family: Avenir Next Condensed;
-    font-size: 15px;
+    font-size: 20px;
     padding: 0px 20px;
+    color: #4b4b4b;
 }
 
 .underskrift{
     font-family: Marydale; 
-    font-size: 15px;
+    font-size: 20px;
+    color: #4b4b4b;
 }
 
 /*forside billede og tilhørende tekst ved større skærm end mobil*/
@@ -239,7 +241,7 @@ body#kontakt .kontakt-nav
 
 
 /* section1 - PORTFOLIO ved lidt mindre end web */
-@media screen and (min-width: 850px){
+@media screen and (min-width: 800px){
 .portfolio-tekst{
     transform: translate(-50%, -450%);}
 }
@@ -252,7 +254,16 @@ body#kontakt .kontakt-nav
 }
 
 .portfolio-tekst{
-    transform: translate(-50%, -550%);}}
+    transform: translate(-50%, -500%);}}
+
+@media screen and (min-width: 1100px){
+    .overskrift{
+        font-size: 35px;
+    }
+    
+    .portfolio-tekst{
+        transform: translate(-50%, -500%);}}
+
 
 /* section2 - OM MIG styling*/
 .grå-baggrund{
@@ -412,7 +423,7 @@ body#kontakt .kontakt-nav
 
 
 /* Ny side - PORTFOLIO */
-/* Section1 - PORTFOLIO styling*/    
+/* Section1 - PORTFOLIO TEKST styling*/    
 .titel{
     margin-top: 50px;
 }
@@ -451,28 +462,30 @@ body#kontakt .kontakt-nav
 
 /* Section1 - PORTRÆT ved større end en mobil*/
 @media screen and (min-width: 600px){
+#wrapper-portfolio{
+    padding-bottom: 1200px;
+}
+
 .tekst-portfolio{
     max-width: 300px;
     position: relative;
-    margin-left: 5%;
+    left: 10%;
     }
 
 .portfolio-portræt{
     position: absolute;
-    right: 5%;
+    left: 50%;
     top: 125px;
-    }
-
-#portræt-billede{
-    top: 50%;
-    left:10%
     }
 }
 
 /* Section1 - PORTRÆT ved web*/
 @media screen and (min-width: 1000px){
+    #wrapper-portfolio{
+        padding-bottom: 1300px;
+    }
     .tekst-portfolio{
-        margin-left: 20%;
+        left: 20%;
         }
     
     .portfolio-portræt{
@@ -480,7 +493,7 @@ body#kontakt .kontakt-nav
         }
 }
 
-/* Section1 - PRODUKTBILLEDER styling*/  
+/* Section2 - PRODUKTBILLEDER styling*/  
 .portfolio-produktbilleder{
     position: relative;
 }
@@ -496,7 +509,7 @@ body#kontakt .kontakt-nav
     max-width: 200px;
     position: absolute;
     top: 0%;
-    right:10%
+    right:10%;
 }
 
 #produktbillede2{
@@ -504,7 +517,7 @@ body#kontakt .kontakt-nav
     max-width: 200px;
     position: absolute;
     top: 35%;
-    left:5%
+    left:5%;
 }
 
 #produktbillede3{
@@ -515,28 +528,28 @@ body#kontakt .kontakt-nav
     right: 5%;
 }
 
-/* Section1 - PORTRÆT ved større end en mobil*/
+/* Section2 - PRODUKTBILLEDER ved større end en mobil*/
 @media screen and (min-width: 600px){
 .tekst-portfolio2{
     max-width: 200px;
     position: relative;
     float: right;
-    margin-right: 5%;
-    margin-top: 250px;
+    right: 10%;
+    top: 200px;
     }
 
 .portfolio-produktbilleder{
     position: absolute;
-    left: 5%;
-    top: 550px;
-    margin: 0px 20px 0px 30px
+    right: 40%;
+    top: 500px;
+    margin: 0px 20px 0px 30px;
     }
     
     #produktbillede1{
         top: 5%;
     }
     #produktbillede2{
-        left:-15%
+        left:-15%;
     }
     
     #produktbillede3{
@@ -544,16 +557,168 @@ body#kontakt .kontakt-nav
         right: 0%;
     }}
 
-/* Section1 - PORTRÆT ved web*/
+/* Section2 - PRODUKTBILLEDER ved web*/
 @media screen and (min-width: 1000px){
     .tekst-portfolio2{
-        margin-right: 20%;
+        right: 20%;
         }
     
     .portfolio-produktbilleder{
         left: 20%;
+        }}
+
+
+/* Section3 - PLAKATER styling*/    
+
+#plakat1{
+    width: 45%;
+    max-width: 200px;
+}
+
+#plakat2{
+    width: 45%;
+    max-width: 200px;
+}
+
+/* Section3 - PLAKATER ved større end en mobil*/
+@media screen and (min-width: 600px){
+.tekst-portfolio3{
+    max-width: 230px;
+    position: relative;
+    left: 10%;
+    top: 600px;
+    }
+
+.portfolio-plakater{
+    position: absolute;
+    left: 40%;
+    top: 900px;
+    }}
+
+/* Section3 - PLAKATER ved web*/
+@media screen and (min-width: 1000px){
+    .tekst-portfolio3{
+        left: 20%;
         }
+    
+    .portfolio-plakater{
+        right: 20%;
+        }
+}
 
 
+/* Section4 - LOGO styling*/ 
+#logo{
+    width: 70%;
+    max-width: 400px;
+}
+
+/* Section4 - LOGO ved større end en mobil*/
+@media screen and (min-width: 600px){
+.tekst-portfolio4{
+    max-width: 250px;
+    position: relative;
+    clear: both;
+    float: right;
+    right: 10%;
+    top: 700px;
+    }
+
+#logo{
+    max-width: 250px;
+    position: absolute;
+    right: 50%;
+    top: 1200px;
+}
+}
+
+/* Section4 - LOGO ved web*/
+@media screen and (min-width: 1000px){
+    .tekst-portfolio4{
+        right: 20%;
+        }
+    
+    .portfolio-logo{
+        left: 20%;
+        }}
 
 
+/* Section5 - ANIMATION styling*/    
+.portfolio-animation{
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    background: url(images-portfolio/animation.png) 0 0 no-repeat;
+    animation: play 1s steps(9) infinite;
+}
+
+@keyframes play {
+    0%{background-position: 0px;}
+    100%{background-position: -2700px;}
+}
+
+/* Section5 - ANIMATION ved større end en mobil*/
+@media screen and (min-width: 600px){
+.tekst-portfolio5{
+    max-width: 250px;
+    position: relative;
+    left: 10%;
+    top: 1050px;
+    }
+
+.portfolio-animation{
+    position: absolute;
+    left: 50%;
+    top: 1500px;
+    }}
+
+/* Section5 - ANIMATION ved web*/
+@media screen and (min-width: 1000px){
+    .tekst-portfolio5{
+        left: 20%;
+        }
+    
+    .portfolio-animation{
+        right: 20%;
+        }
+}
+
+
+/* Section6 - VIDEO styling*/ 
+#video{
+    width: 70%;
+    max-width: 400px;
+    margin-bottom: 75px;
+}
+
+/* Section6 - VIDEO ved større end en mobil*/
+@media screen and (min-width: 600px){
+.tekst-portfolio6{
+    max-width: 220px;
+    position: relative;
+    clear: both;
+    float: right;
+    right: 10%;
+    top: 1150px;
+    }
+
+#video{
+    width: 300px;
+    position: absolute;
+    right: 50%;
+    top: 1900px;
+}
+}
+
+/* Section6 - VIDEO ved web*/
+@media screen and (min-width: 1000px){
+    .tekst-portfolio6{
+        max-width: 250px;
+        top: 1200px;
+        right: 20%;
+        }
+    
+    #video{
+        width: 350px;
+        left: 20%;
+        }}
