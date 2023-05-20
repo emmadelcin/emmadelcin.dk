@@ -63,13 +63,15 @@ body#kontakt .kontakt-nav
 .intro-box
     {position: relative;}
 
-#baloo{
+#mig-forside{
     width: 90%;
-    max-height: 600px;
-    max-width: 900px;
     padding: 20px 0px;
 }
 
+#mig-forside2{
+    display: none;
+
+}
 .titel{
     text-align: left;
     font-family: Avenir Next Condensed;
@@ -96,13 +98,20 @@ body#kontakt .kontakt-nav
 
 /*forside billede og tilhørende tekst ved større skærm end mobil*/
 @media screen and (min-width: 600px){
-    .logo
-        {font-size: 40px;}
+    #mig-forside{
+        display: none;
+    }
+    
+    #mig-forside2{
+        display: block;
+        width: 100%;
+        padding: 20px 0px;
+        }
 
     .intro{
         position: absolute;
-        top: 40%;
-        left: 10%;
+        top: 30%;
+        left: 5%;
         color: #4b4b4b;
     }
 
@@ -117,8 +126,12 @@ body#kontakt .kontakt-nav
 
 /*forside billede og tilhørende tekst ved web*/
 @media screen and (min-width: 1000px){
+    .logo-navn{
+        font-size: 35px;
+    }
+    
     .intro{
-        left: 20%;
+        left: 15%;
         
 
     .titel
@@ -722,3 +735,105 @@ body#kontakt .kontakt-nav
         width: 350px;
         left: 20%;
         }}
+
+
+/* Ny side - OM MIG */
+/* Section1 - OM MIG styling*/
+.mig-om-mig{
+    width: 90%;
+}
+
+#om-mig-overskrift{
+    text-align: left;
+}
+
+/* section1 - OM MIG ved større end en mobil*/
+@media screen and (min-width: 600px){
+.række-om-mig-afsnit {
+    display: flex;
+    margin: 0px 5%;
+    }
+      
+.kolonne-om-mig-afsnit {
+        flex: 50%;
+}
+
+.mig-om-mig{
+   padding-top: 50px;
+   max-width: 300px;
+}
+
+.om-mig-afsnit{
+    max-width: 400px;
+}}
+
+/* section1 - OM MIG ved web*/
+@media screen and (min-width: 1000px){
+.række-om-mig-afsnit {
+    margin: 0px 15%;
+    }
+
+.om-mig-afsnit{
+    max-width: 500px;
+}
+
+.mig-om-mig{
+    width: 300px;
+}}
+
+
+/* section2 - MINE KOMPETANCER styling*/
+
+.mine-kompetancer img{
+    width: 60px;
+    height: 60px;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+
+.mine-kompetancer{
+    display: flex;
+    font-family: Avenir Next Condensed;
+    font-size: 20px;
+    color: #4b4b4b;
+}
+
+.brødtekst{
+    font-family: Avenir Next Condensed;
+    font-size: 16px;
+    text-align: left;
+    color: #4b4b4b;
+    padding: 0px 20px 20px;
+}
+
+/* section2 - OM MIG ved større end en mobil + web*/
+@media screen and (min-width: 600px){
+    .række-om-mig {
+        display: flex;
+    }
+      
+    .kolonne-om-mig {
+        flex: 33.33%;
+    }
+
+    .række-mine-kompetancer{
+        margin: 0px 5%;
+    }
+}
+
+/* section2 - OM MIG ved større end en mobil + web*/
+@media screen and (min-width: 1000px){
+    .række-om-mig {
+        display: flex;
+    }
+      
+    .kolonne-om-mig {
+        flex: 33.33%;
+    }
+
+    .række-mine-kompetancer{
+        margin: 0px 15%;
+    }
+}
+
+
