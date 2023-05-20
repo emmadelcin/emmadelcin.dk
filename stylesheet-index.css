@@ -1,0 +1,309 @@
+/*forside billede og tilhørende tekst ved mobil*/
+.intro-box
+    {position: relative;}
+
+#mig-forside{
+    width: 90%;
+    padding: 20px 0px;
+}
+
+#mig-forside2{
+    display: none;
+}
+
+/*forside billede og tilhørende tekst ved større skærm end mobil*/
+@media screen and (min-width: 600px){
+    #mig-forside{
+        display: none;
+    }
+    
+    #mig-forside2{
+        display: block;
+        width: 100%;
+        padding: 20px 0px;
+        }
+
+    .intro{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        color: #4b4b4b;
+    }
+
+    .titel
+        {font-size: 30px;}
+    
+    .titel2
+        {font-size: 20px;}
+    
+    .underskrift
+        {font-size: 20px;}}
+
+/*forside billede og tilhørende tekst ved web*/
+@media screen and (min-width: 1000px){
+    .logo-navn{
+        font-size: 35px;
+    }
+    
+    .intro{
+        left: 15%;
+    }
+
+    .titel
+        {font-size: 35px;}
+    
+    .titel2
+        {font-size: 25px;}
+    
+    .underskrift
+        {font-size: 25px;}}
+
+
+
+/*section1 - PORTFOLIO styling*/
+.portfolio-tekst{
+    width: 120px;
+    padding: 15px 5px;
+    font-family: Avenir Next Condensed;
+    text-align: center;
+    font-size: 18px;
+}
+
+.portfolio-forside{
+    width: 90%;
+    max-width: 300px;
+    position: relative;
+}
+
+/*section1 - PORTFOLIO styling fortsat individuel farve på boxene*/
+#portræt-box{
+    background-color: #7e8265;
+    color: #e5e5e5;
+}
+
+#produktbilleder-box{
+    background-color: #6a705c;
+    color: #e5e5e5;
+}
+
+#plakater-box{
+    background-color: #a0a38e;
+    color: #4b4b4b;
+}
+
+#logo-box{
+    background-color: #6a705c;
+    color: #e5e5e5;
+}
+
+#animation-box{
+    background-color: #a0a38e;
+    color: #4b4b4b;
+}
+
+#video-box{
+    background-color: #7e8265;
+    color: #e5e5e5;
+}
+
+/*section1 - PORTFOLIO styling fortsat individuel placering på boxene*/
+.portfolio-tekst{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+/* section1 - PORTFOLIO ved større end en mobil */
+@media screen and (min-width: 600px){
+    .række1 {
+        display: flex;
+        margin: 0px 10%;
+    }
+
+    .række2 {
+        display: flex;
+        margin: 0px 10%;
+    }
+      
+    .kolonner {
+        flex: 33.33%;
+    }
+
+    .overskrift{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .portfolio-tekst{
+        transform: translate(-50%, -400%);
+
+}}
+
+
+/* section1 - PORTFOLIO ved lidt mindre end web */
+@media screen and (min-width: 800px){
+.portfolio-tekst{
+    transform: translate(-50%, -450%);}
+}
+
+
+/* section1 - PORTFOLIO ved web */
+@media screen and (min-width: 1000px){
+    .overskrift{
+        font-size: 35px;
+}
+
+.portfolio-tekst{
+    transform: translate(-50%, -500%);}}
+
+@media screen and (min-width: 1100px){
+    .overskrift{
+        font-size: 35px;
+    }
+    
+    .portfolio-tekst{
+        transform: translate(-50%, -550%);}}
+
+
+
+/* section2 - OM MIG styling*/
+.grå-baggrund{
+    background-color: #e5e5e5;
+    padding: 5px 0px 50px;
+    margin: 50px 0px;
+}
+.om-mig img{
+    width: 60px;
+    height: 60px;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+
+.om-mig{
+    display: flex;
+    font-family: Avenir Next Condensed;
+    font-size: 20px;
+    color: #4b4b4b;
+}
+
+.knap-om-mig{
+    background-color:#a0a38e;
+    width: 100px;
+    text-decoration: none;
+    font-family: Avenir Next Condensed;
+    color: #4b4b4b;
+    padding: 4px 20px;
+}
+
+.knap-om-mig:hover
+    {color:#e5e5e5;}
+
+.knap-om-mig:active
+    {background-color:#7e8265;}
+
+
+/* section2 - OM MIG ved større end en mobil + web*/
+@media screen and (min-width: 600px){
+    .række-om-mig {
+        display: flex;
+    }
+      
+    .kolonne-om-mig {
+        flex: 33.33%;
+    }}
+
+
+/* section3 - KONTAKT styling*/
+#overskrift{
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.kontakt img{
+    width: 30px;
+    height: 30px;
+    padding: 10px 20px;
+}
+
+.kontakt{
+    display: flex;
+    font-family: Avenir Next Condensed;
+    font-size: 16px;
+    color: #4b4b4b;
+}
+
+.forside-kontakt-grøn-box {
+    width: 30%;
+    height: 300px;
+    margin: 0px 0px 150px 0px;
+    opacity: 50%;
+    position: relative;
+    left: 5%;
+}
+
+.kontaktinfo{
+    float: right;
+    margin-right: 5%;
+}
+
+.forside-kontakt-billede{
+    width: 200px;
+    position: absolute;
+    margin: 50px;
+    right: 10%;
+}
+
+.knap-kontakt{
+    background-color:#a0a38e;
+    width: 120px;
+    text-decoration: none;
+    font-family: Avenir Next Condensed;
+    color: #4b4b4b;
+    padding: 4px 20px;
+    margin-top: 10px;
+    float: right;
+}
+
+.knap-kontakt:hover
+    {color:#e5e5e5;}
+
+.knap-kontakt:active
+    {background-color:#7e8265;}
+
+    
+/* section3 - KONTAKT ved større end en mobil*/
+@media screen and (min-width: 600px){
+    .underoverskrift{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    #overskrift{
+        text-align: center;
+    }
+
+    .kontaktinfo{
+        margin-right: 15%;
+    } 
+    .forside-kontakt-grøn-box {
+        left: 10%;
+    }
+    .forside-kontakt-billede{
+        right: 30%;
+    }}
+
+/* section3 - KONTAKT ved web*/
+@media screen and (min-width: 1000px){
+    .kontaktinfo{
+        margin-right: 30%;
+    } 
+  
+    .forside-kontakt-grøn-box {
+        max-width: 300px;
+    }
+    
+    .forside-kontakt-billede{
+        right: 40%;
+    }}
