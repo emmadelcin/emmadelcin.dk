@@ -75,6 +75,10 @@
     position: relative;
 }
 
+.link{
+    text-decoration: none;
+}
+
 /*section1 - PORTFOLIO styling fortsat individuel farve på boxene*/
 #portræt-box{
     background-color: #7e8265;
@@ -88,7 +92,7 @@
 
 #plakater-box{
     background-color: #a0a38e;
-    color: #4b4b4b;
+    color: #e5e5e5;
 }
 
 #logo-box{
@@ -98,7 +102,7 @@
 
 #animation-box{
     background-color: #a0a38e;
-    color: #4b4b4b;
+    color: #e5e5e5;
 }
 
 #video-box{
@@ -137,7 +141,6 @@
 
     .portfolio-tekst{
         transform: translate(-50%, -400%);
-
 }}
 
 
@@ -157,11 +160,7 @@
 .portfolio-tekst{
     transform: translate(-50%, -500%);}}
 
-@media screen and (min-width: 1100px){
-    .overskrift{
-        font-size: 35px;
-    }
-    
+@media screen and (min-width: 1100px){    
     .portfolio-tekst{
         transform: translate(-50%, -550%);}}
 
