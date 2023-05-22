@@ -2,12 +2,12 @@
 
 @media screen and (min-width: 600px){
     #wrapper-portfolio{
-        padding-bottom: 1200px;
+        padding-bottom: 1500px;
     }}
 
 @media screen and (min-width: 1000px){
     #wrapper-portfolio{
-        padding-bottom: 1300px;
+        padding-bottom: 1600px;
     }}
 
 
@@ -52,6 +52,7 @@
     position: absolute;
     left: 50%;
     top: 125px;
+    max-width: 350px;
     }
 }
 
@@ -109,13 +110,13 @@
     position: relative;
     float: right;
     right: 10%;
-    top: 200px;
+    top: 250px;
     }
 
 .portfolio-produktbilleder{
     position: absolute;
     right: 40%;
-    top: 500px;
+    top: 550px;
     margin: 0px 20px 0px 30px;
     }
     
@@ -139,6 +140,7 @@
     
     .portfolio-produktbilleder{
         left: 20%;
+        max-width: 400px;
         }}
 
 
@@ -161,13 +163,13 @@
     max-width: 230px;
     position: relative;
     left: 10%;
-    top: 600px;
+    top: 700px;
     }
 
 .portfolio-plakater{
     position: absolute;
     left: 40%;
-    top: 900px;
+    top: 1000px;
     }}
 
 /* Section3 - PLAKATER ved web*/
@@ -196,14 +198,14 @@
     clear: both;
     float: right;
     right: 10%;
-    top: 700px;
+    top: 850px;
     }
 
 #logo{
     max-width: 250px;
     position: absolute;
     right: 50%;
-    top: 1200px;
+    top: 1350px;
 }
 }
 
@@ -239,13 +241,13 @@
     max-width: 250px;
     position: relative;
     left: 10%;
-    top: 1050px;
+    top: 1250px;
     }
 
 .portfolio-animation{
     position: absolute;
     left: 50%;
-    top: 1500px;
+    top: 1700px;
     }}
 
 /* Section5 - ANIMATION ved web*/
@@ -276,14 +278,14 @@
     clear: both;
     float: right;
     right: 10%;
-    top: 1150px;
+    top: 1400px;
     }
 
 #video{
     width: 300px;
     position: absolute;
     right: 50%;
-    top: 1900px;
+    top: 2150px;
 }
 }
 
@@ -291,7 +293,7 @@
 @media screen and (min-width: 1000px){
     .tekst-portfolio6{
         max-width: 250px;
-        top: 1200px;
+        top: 1450px;
         right: 20%;
         }
     

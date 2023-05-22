@@ -1,6 +1,7 @@
 /* Section1 - OM MIG styling*/
 .mig-om-mig{
     width: 90%;
+    max-width: 350px;
 }
 
 #om-mig-overskrift{
@@ -8,7 +9,7 @@
 }
 
 /* section1 - OM MIG ved større end en mobil*/
-@media screen and (min-width: 600px){
+@media screen and (min-width: 700px){
 .række-om-mig-afsnit {
     display: flex;
     margin: 0px 5%;
@@ -20,11 +21,11 @@
 
 .mig-om-mig{
    padding-top: 50px;
-   max-width: 300px;
+   max-width: 350px;
 }
 
 .om-mig-afsnit{
-    max-width: 400px;
+    max-width: 450px;
 }}
 
 /* section1 - OM MIG ved web*/
@@ -34,21 +35,20 @@
     }
 
 .om-mig-afsnit{
-    max-width: 500px;
+    max-width: 450px;
 }
 
 .mig-om-mig{
-    width: 300px;
+    width: 350px;
 }}
 
 
 /* section2 - MINE KOMPETANCER styling*/
 
 .mine-kompetancer img{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     padding: 0px 20px;
-    margin-bottom: 30px;
 }
 
 .mine-kompetancer{
@@ -58,42 +58,21 @@
     color: #4b4b4b;
 }
 
-.brødtekst{
-    font-family: Avenir Next Condensed;
-    font-size: 16px;
-    text-align: left;
-    color: #4b4b4b;
-    padding: 0px 20px 20px;
-}
 
 /* section2 - OM MIG ved større end en mobil + web*/
 @media screen and (min-width: 600px){
-    .række-om-mig {
-        display: flex;
-    }
-      
-    .kolonne-om-mig {
-        flex: 33.33%;
+    .række-mine-kompetancer{
+        margin: 0px 10%;
     }
 
-    .række-mine-kompetancer{
-        margin: 0px 5%;
+    #overskrift-mine-kompetancer{
+        text-align: center;
     }
 }
 
 /* section2 - OM MIG ved større end en mobil + web*/
 @media screen and (min-width: 1000px){
-    .række-om-mig {
-        display: flex;
-    }
-      
-    .kolonne-om-mig {
-        flex: 33.33%;
-    }
-
     .række-mine-kompetancer{
-        margin: 0px 15%;
+        margin: 0px 20%;
     }
 }
-
-

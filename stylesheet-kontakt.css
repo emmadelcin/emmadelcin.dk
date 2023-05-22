@@ -1,0 +1,163 @@
+/* Section1 - KONTAKT styling*/
+.mig-kontakt{
+    width: 90%;
+    max-width: 350px;
+}
+
+#kontakt-overskrift{
+    text-align: left;
+    padding: 20px 0px 20px;
+}
+
+.kontakt img{
+    width: 30px;
+    height: 30px;
+    padding: 10px 20px;
+}
+
+.kontakt{
+    display: flex;
+    font-family: Avenir Next Condensed;
+    font-size: 16px;
+    color: #4b4b4b;
+    padding-left: 30px;
+}
+
+.kontakt p{
+    padding-top: 15px;
+}
+
+#kontakt-sociale-medier img{
+    float: left;
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+.sociale-medier{
+    padding-left: 40px;
+}
+
+.kontakt-afsnit{
+    margin-bottom: 100px;
+}
+
+#find-mig-her{
+    margin-top: 30px;
+}
+
+/* section1 - KONTAKT ved større end en mobil*/
+@media screen and (min-width: 700px){
+.række-kontakt{
+    display: flex;
+    margin: 0px 5%;
+    }
+      
+.kolonne-kontakt {
+        flex: 50%;
+}
+
+.mig-kontakt{
+   padding-top: 50px;
+   max-width: 350px;
+}
+
+.kontakt-afsnit{
+    max-width: 450px;
+}}
+
+#kontakt-overskrift{
+    margin: 0px 5%;
+}
+
+/* section1 - KONTAKT ved web*/
+@media screen and (min-width: 1000px){
+.række-kontakt {
+    margin: 0px 15%;
+    }
+
+.kontakt-afsnit{
+    max-width: 450px;
+}
+
+.mig-kontakt{
+    width: 350px;
+}
+
+.kontakt-afsnit{
+    margin-bottom: 150px;
+}}
+
+
+
+
+/* section2 - KONTAKTFOMULAR styling*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Avenir Next Condensed;
+}
+
+.overskrift{
+    padding: 75px 0px 20px 20px;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    padding: 20px 40px;
+    outline: none;
+    background-color: #E5E5E5;
+    border: 0px;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 1px 1px #a0a38e;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn{
+    border: 0;
+    background: #a0a38e;
+    color: #4b4b4b;
+    font-size: 18px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 50px;
+}
+
+.contact-form-btn:hover{
+    color: #E5E5E5;
+}
+
+.contact-form-btn:active{
+    background: #7e8265;
+    color: #E5E5E5;
+}
+
+/* section1 - KONTAKTFOMULAR ved større end en mobil*/
+@media screen and (min-width: 700px){
+
+.contact-form-btn{
+    float: right;
+}
+
+.overskrift{
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}}
