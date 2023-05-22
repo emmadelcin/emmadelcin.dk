@@ -237,7 +237,7 @@
 .forside-kontakt-grøn-box {
     width: 30%;
     height: 300px;
-    margin: 0px 0px 150px 0px;
+    margin: 0px 0px 180px 0px;
     opacity: 50%;
     position: relative;
     left: 5%;
@@ -251,8 +251,8 @@
 .forside-kontakt-billede{
     width: 200px;
     position: absolute;
-    margin: 50px;
-    right: 10%;
+    margin: 80px;
+    right: 15%;
 }
 
 .knap-kontakt{
@@ -292,6 +292,7 @@
         left: 10%;
     }
     .forside-kontakt-billede{
+        width: 250px;
         right: 30%;
     }}
 
@@ -306,5 +307,6 @@
     }
     
     .forside-kontakt-billede{
+        width: 300px;
         right: 40%;
     }}
