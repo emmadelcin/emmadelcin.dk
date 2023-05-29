@@ -8,6 +8,13 @@
     text-align: left;
 }
 
+.underskrift{
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -20px;
+}
+
+
 /* section1 - OM MIG ved større end en mobil*/
 @media screen and (min-width: 700px){
 .række-om-mig-afsnit {
@@ -58,6 +65,24 @@
     color: #4b4b4b;
 }
 
+#overskrift-mine-kompetancer{
+    margin-top: 80px;
+}
+
+#adobe-programmer img{
+    width: 40px;
+    float: left;
+    padding: 0px 10px;
+}
+
+#adobe-programmer{
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.transparent-box{
+    height: 50px;
+}
 
 /* section2 - OM MIG ved større end en mobil + web*/
 @media screen and (min-width: 600px){

@@ -266,6 +266,7 @@
 /* Section6 - VIDEO styling*/ 
 #video{
     width: 70%;
+    height: 200px;
     max-width: 400px;
     margin-bottom: 75px;
 }
@@ -285,7 +286,7 @@
     width: 300px;
     position: absolute;
     right: 50%;
-    top: 2150px;
+    top: 2175px;
 }
 }
 
@@ -298,6 +299,7 @@
         }
     
     #video{
-        width: 350px;
+        width: 375px;
+        height: 250px;
         left: 20%;
         }}
