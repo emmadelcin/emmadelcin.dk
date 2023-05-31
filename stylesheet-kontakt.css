@@ -130,7 +130,7 @@ textarea.contact-form-text{
     height: 120px;
 }
 
-.contact-form-btn{
+.contact-form-knap{
     border: 0;
     background: #a0a38e;
     color: #4b4b4b;
@@ -141,19 +141,19 @@ textarea.contact-form-text{
     margin-bottom: 50px;
 }
 
-.contact-form-btn:hover{
+.contact-form-knap:hover{
     color: #E5E5E5;
 }
 
-.contact-form-btn:active{
+.contact-form-knap:active{
     background: #7e8265;
     color: #E5E5E5;
 }
 
-/* section1 - KONTAKTFOMULAR ved større end en mobil*/
+/* section1 - KONTAKTFOMULAR ved større end en mobil+web*/
 @media screen and (min-width: 700px){
 
-.contact-form-btn{
+.contact-form-knap{
     float: right;
 }
 

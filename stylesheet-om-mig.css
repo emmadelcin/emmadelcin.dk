@@ -51,7 +51,6 @@
 
 
 /* section2 - MINE KOMPETANCER styling*/
-
 .mine-kompetancer img{
     width: 80px;
     height: 80px;
@@ -84,7 +83,7 @@
     height: 50px;
 }
 
-/* section2 - OM MIG ved større end en mobil + web*/
+/* section2 - MINE KOMPETANCER ved større end en mobil*/
 @media screen and (min-width: 600px){
     .række-mine-kompetancer{
         margin: 0px 10%;
@@ -95,7 +94,7 @@
     }
 }
 
-/* section2 - OM MIG ved større end en mobil + web*/
+/* section2 - MINE KOMPETANCER ved web*/
 @media screen and (min-width: 1000px){
     .række-mine-kompetancer{
         margin: 0px 20%;
